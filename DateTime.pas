@@ -9,4 +9,6 @@
   end
   else  Writeln('-');
   
+  var minuts := ReadReal('Input time in minutes:');
+  Writeln('Time in seconds: ', minuts * 60);
 end.
